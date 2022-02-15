@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+<style>
+
+    h1 {
+        background-color: orange;
+        text-align: center;
+        padding: 20px;
+    }
+
+    h5 {
+        border-bottom: 1px solid brown;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    ol {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+
+
+
+@media screen and (min-width:600px) {
+
+.div_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
+
+.div_1 {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    margin: 4px;
+    padding-bottom: 75px;
+}
+
+.text {
+    padding-left: 5px;
+    margin-top: 7px;
+}
+
+</style>
+
+
+</head>
+
+
+<body>
+
+    <h1>블로그</h1>
+
+    <ol>
+        <li>공지사항</li>
+        <li>게시글</li>
+    </ol>
+
+   
+<div class="div_grid">
+    <div class="div_1">
+        <h5>제목1</h5>
+        <p class="text">게시판 내용들</p>
+    </div>
+
+    <div class="div_1">
+        <h5>제목2</h5>
+        <p class="text">게시판 내용들</p>
+    </div>
+
+    <div class="div_1">
+        <h5>제목3</h5>
+        <p class="text">게시판 내용들</p>
+    </div>
+
+    <div class="div_1">
+        <h5>제목4</h5>
+        <p class="text">게시판 내용들</p>
+    </div>
+</div>
+
+
+</body>
+
+</html>
